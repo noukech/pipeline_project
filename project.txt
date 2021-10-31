@@ -1,0 +1,77 @@
+
+
+
+1- Alfred:  git and github
+            a- setup webhook
+            b- generate and share the token and username
+            c- search and nice app made off html language
+
+
+2- Will: Jenkins running inside CONTAINER using docker-compose Jenkins home locally
+
+
+3- Gislain: Jenkins running inside CONTAINER using docker-compose
+            a- write a docker compose file
+            b- create a branch and push it to github
+            c- get the list of plug-in from peter and install those plugin
+            d- get the sonarqube token and create credential with it
+            e- create a nexus credential
+            f - share your VM key and IP with peter
+
+ 
+
+4- Ivo: sonarqube running inside container using docker-compose
+            a- write a docker compose file
+            b- create a branch and push it to github
+            c- generate a token for will and gislain
+
+ 
+
+5- Willy: Nexus running inside a container. Your VM should have at least RAM 32 cpu           
+
+	a - install nexus using docker-compose or simple script
+	b- create a user called admin password admin  and send it credentials to will
+
+ 
+
+6- Derrick: docker-compose file that runs tomcat and httpd container
+            a- write a docker compose
+
+b- Create a branch and push it to github
+            c- open tomcat to port 85 and httpd to port 95
+
+ 
+
+7- Noel: Jenkinsfile that runs the entire pipeline refer to the ppt
+            a- write jenkinsfile using docker agent ( maven, sonarqube-cli,  git )
+            b- create a branch and push it to github8-
+
+ 
+
+8- Philomene:
+            a- script to install docker and docker-compose, ansible then send to noel to incorporate in the jenkinsfile      
+
+ 
+
+9- Stephanie: all dockerfiles
+            a- dockerfile for tamcat
+            b- httpd
+            c- create a branch and push it to github
+
+
+10- Igor: jenkinsfile post notification section and create a channel and token in slack then sent that token to will
+
+	   a - write a jenkinsfile
+           b- create a branch and push it to github
+           c- create a token and share it with will and gislain
+           d- send your work to NOEL
+
+
+11- Peter: Provide list of plug-in for Jenkins to will and gislaine and set up ansible environement
+              using hosts provide by each one the ansible masyetr should be on the same VM were jenkins is running
+           a - make a list of required plugin and send to  will and gislain
+           b-  collect IP address and setup ansible using jenkins VM as master
+
+ 
+
+ALL: GET A vm RUNNING WITH AL LEAST 20 Gi AND SENT THE ip ADDRESS TO PETER
